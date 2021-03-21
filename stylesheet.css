@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+	background-color: #bab0ff
+  color: black;
+	margin: 20;
+	font-family: 'Montserrat';
+
+	}
+
+.container {
+	margin-bottom: 40px;
+	margin-left: 10px;
+	}
+
+.CopyText {
+	float: left;
+	width: 50%;
+	height: 40px;
+	padding: 10px 20px;
+	border: 2px solid black;
+	background-color: #dbffe8;
+	border-raduis: 8px;
+	font-family: 'Montserrat';
+	resize: none;
+	}
+
+button {
+	margin-left: 5px;
+	margin-top: 7px;
+	float: left;
+	padding: 15px 15px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	background-color: #b0d2ff;
+	font-family: 'Montserrat';
+	}
