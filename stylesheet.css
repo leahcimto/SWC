@@ -36,6 +36,9 @@ button {
 	}
 
 .topnav {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
   overflow: hidden;
   background-color: #3236a8;
 }
@@ -55,6 +58,6 @@ button {
 }
 
 .topnav a.active {
-  background-color: #3c00c9;
+  background-color: #445fc9;
   color: white;
 }
