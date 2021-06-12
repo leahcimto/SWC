@@ -4,79 +4,71 @@
 		<meta charset="UTF-8">
 		<title>SWC Reply</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	        <div class="topnav">
- 		<a class="active" href="/#">SWC</a>
- 		<a href="https://leahcimto.com/SDS">SDS</a>
-		</div>
 	</head>
-  		<body style="background-color: #cfe8ff;">
+  	
+	<body style="background-color: #cfe8ff;">
 	  
 
 	  	<br>
-		<p>Click on the copy button to copy the text next to it.</p>
-
+		<div class="titleText">
+			<h1>Scratch Welcoming Committee QuickReply</h1>
+			<h3>Brought to you by leahcimto</h3>
+			<h4>Click on the copy button to copy the text next to it</h4></div>
 		<br>
-
+		
 		<div class="container">
-		<textarea class="CopyText" id="Text1" readonly>Hi there! Thanks for submitting a project for the welcoming committee! I am leahcimto, (though you can call me Mike), and I'll be reviewing your project so it can be put in the studio, and it can be the best it can be! When you are ready to start, please reply to this comment! :D</textarea>
-		<button onclick="copy(1)">Copy</button>
-		<br>
-		<br>
-		</div>
-
-		<div class="container">
-		<textarea class="CopyText" id="Text2" readonly>Hi there! I am Mike (also known as leahcimto) from the SWC Reviewing Team. I'll review your project so it can be added to the main studio! Before I start the review, I need to know if you are active. If you are, please reply to this comment!</textarea>
-		<button onclick="copy(2)">Copy</button>
-		<br>
-		<br>
+			<p>Review Begining</p>
+			<textarea class="CopyText" id="Text1" readonly>Hi there! Thanks for submitting a project for the welcoming committee! I am [USERNAME], a curator of the welcoming committee, and I'll be reviewing your project so it can be put in the studio! Before we start, I need to know if you are active. If you are, please reply to this comment! :D</textarea>
+			<button onclick="copy(1)">Copy</button>
+			<br>
+			<br>
 		</div>
 
 
 		<div class="container">
-		<textarea class="CopyText" id="Text3" readonly>Hello! Since you have not replied in over 2 weeks, I have assumed you are inactive and have removed the project from the reviewing studio. If you would still like your project reviewed, feel free to add it back to the submissions studio!</textarea>
-		<button onclick="copy(3)">Copy</button>
-		<br>
-		<br>
+			<p>Two Weeks Inactivity Notice</p>
+			<textarea class="CopyText" id="Text3" readonly>Hello! Since you have not replied in over 2 weeks, I have assumed you are inactive and have removed the project from the reviewing studio and have concluded the reviewing process. If you would still like your project reviewed, feel free to add it back to the submissions studio!</textarea>
+			<button onclick="copy(2)">Copy</button>
+			<br>
+			<br>
 		</div>
 
 
 		<div class="container">
-		<textarea class="CopyText" id="Tex4" readonly>Sorry, but to submit a project for the welcoming committee, you need to have the Scratcher status. You can add this project back to the submissions studio when you become a Scratcher! For more information on becoming a Scratcher, see this: https://scratch.mit.edu/discuss/topic/6986/</textarea>
-		<button onclick="copy(4)">Copy</button>
-		<br>
-		<br>
+			<p>New Scratcher Notice</p>
+			<textarea class="CopyText" id="Tex4" readonly>Sorry, but to submit a project for the welcoming committee, you need to have the Scratcher status. You can add this project back to the submissions studio when you become a Scratcher! For more information on becoming a Scratcher, see this: https://scratch.mit.edu/discuss/topic/6986/. Thank you!</textarea>
+			<button onclick="copy(3)">Copy</button>
+			<br>
+			<br>
 		</div>
 
 
 		<div class="container">
-		<textarea class="CopyText" id="Text5" readonly> Great! Thanks for adding all of those things! Now that your project looks awesome, I'll go ahead and add it to the completed projects studio! Then, a curator will add it to the main studio as soon as they can. Thanks for helping the welcoming committee! _10mil_</textarea>
-		<button onclick="copy(5)">Copy</button>
-		<br>
-		<br>
+			<p>Review Finished</p>
+			<textarea class="CopyText" id="Text5" readonly>That looks awesome! _10mil_ Horray! You've met all of the requirements and your project is now ready to be added to the @welcomingcommittee! Congratulations! I have added this project to the main Scratch Welcoming Committee studio. You are now a welcoming committee member! Here's a guide to being a member: https://scratch.mit.edu/projects/225831940/. If you have any questions feel free to ask me or another curator/reviewer! :D</textarea>
+			<button onclick="copy(4)">Copy</button>
+			<br>
+			<br>
 		</div>
 
 
 		<div class="container">
-		<textarea class="CopyText" id="Text6" readonly>Great! Now, could you please add the following links to the project description? Here they are: Discussion Forums: https://scratch.mit.edu/discuss/ Scratch Wiki: https://en.scratch-wiki.info/ Please reply to this comment once you have added that!</textarea>
-		<button onclick="copy(6)">Copy</button>
-		<br>
-		<br>
+			<p>Add Links To Project Description</p>
+			<textarea class="CopyText" id="Text6" readonly>Great! Now, could you please add the following links to the project description? Here they are: Discussion Forums: https://scratch.mit.edu/discuss/ Scratch Wiki: https://en.scratch-wiki.info/ Please reply to this comment once you have added that!</textarea>
+			<button onclick="copy(5)">Copy</button>
+			<br>
+			<br>
 		</div>
 
 		<div class="container">
-		<textarea class="CopyText" id="Text9" readonly>Awesome! First, could you please add what your favorite thing about Scratch is? This could be something like the community, making projects, and more! Please reply to this comment once you have added that!</textarea>
-		<button onclick="copy(9)">Copy</button>
-		<br>
-		<br>
+			<p>Add Favorite Part About Scratch</p>
+			<textarea class="CopyText" id="Text9" readonly>Awesome! Could you please add what your favorite thing about Scratch is? This could be something like the community, making projects, and more! Please reply to this comment once you have added that!</textarea>
+			<button onclick="copy(6)">Copy</button>
+			<br>
+			<br>
 		</div>
+	
+		<script src="script.js"></script>
 
-			
-		<script>
-			function copy(area) {
-  				var copyText = document.getElementById("Text"+area);
- 				copyText.select();
-  				document.execCommand("copy");
-				}
-		</script>
 	</body>
 </html>

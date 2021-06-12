@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
 	background-color: #bab0ff
-  color: black;
-	margin: 20;
+  	color: black;
+	padding: 2%;
 	font-family: 'Montserrat';
 
-	}
+}
 
 .container {
 	margin-bottom: 50px;
 	margin-left: 10px;
-	}
+}
 
 .CopyText {
 	float: left;
@@ -22,7 +22,7 @@ body {
 	border-raduis: 20px;
 	font-family: 'Montserrat';
 	resize: none;
-	}
+}
 
 button {
 	margin-left: 5px;
@@ -33,12 +33,9 @@ button {
 	border-radius: 5px;
 	background-color: #b0d2ff;
 	font-family: 'Montserrat';
-	}
+}
 
 .topnav {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
   overflow: hidden;
   background-color: #3236a8;
 }
@@ -60,4 +57,9 @@ button {
 .topnav a.active {
   background-color: #445fc9;
   color: white;
+}
+
+
+.titleText {
+	/* forgot what i was going to put here... */
 }
